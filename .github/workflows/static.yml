@@ -1,4 +1,4 @@
-name: Deploy Zensical to GitHub Pages
+name: Im Docs
 
 on:
   push:
