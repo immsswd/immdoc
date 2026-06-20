@@ -32,15 +32,15 @@ jobs:
         with:
           python-version: 3.x
 
-      # This installs Zensical inside the GitHub Actions virtual runner
+      # Installs Zensical inside the automated runner environment
       - name: Install Zensical
         run: pip install zensical
 
-      # This compiles your Markdown docs into a static HTML site
+      # Compiles your Markdown files inside the docs/ folder into HTML
       - name: Build Zensical
         run: zensical build --clean
 
-      # This specifically uploads Zensical's compiled static files folder
+      # Instructs GitHub to find and upload the compiled 'site' folder artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
