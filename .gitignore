@@ -12,6 +12,7 @@ __pycache__/
 .venv/
 env/
 venv/
+docs/archives/
 
 # Operating System specific files
 .DS_Store

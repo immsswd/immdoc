@@ -10,7 +10,7 @@ The Databricks Catalog is a unified governance and metadata layer that enables o
 
     Unity Catalog has evolved from a simple centralized metadata catalog into a comprehensive governance platform for data and AI. Recent enhancements include governance for AI/ML assets (models, functions, vector search, and feature tables), support for Volumes to manage non-tabular files such as PDFs, images, and CSVs, fine-grained access controls including row filters and column masking, automatic end-to-end data lineage, cross-workspace governance through a single metastore, and deeper integration with cloud-native identities like Azure Managed Identity. The major shift is that Unity Catalog now governs not only tables but the entire data and AI ecosystem, making it the central security, compliance, and governance layer for modern Databricks Lakehouse architectures.
 
-## 🏗️ Catalog Architecture & Metadata Management
+## Catalog Architecture & Metadata Management
 
 ### Three-Level Hierarchy
 
@@ -31,7 +31,7 @@ Databricks Catalog organizes data using a three-tier namespace structure:
 
 Built-in search and discovery tools enable data engineers and analysts to find relevant datasets, understand their content, and trace data dependencies across the organization.
 
-## 🔑 Access Control & Data Sharing
+## Access Control & Data Sharing
 
 ### Fine-Grained Access Control
 
@@ -51,7 +51,7 @@ Built-in search and discovery tools enable data engineers and analysts to find r
 
 Multi-layer security including SAML/OAuth integration, service principal management, and IP allowlist configurations for enterprise-grade authentication.
 
-## 📊 Data Lineage & Quality Governance
+## Data Lineage & Quality Governance
 
 ### Automated Lineage Tracking
 
