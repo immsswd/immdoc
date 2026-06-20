@@ -46,8 +46,10 @@ Copyright &copy; 2026 imm
 # Read more: https://zensical.org/docs/setup/navigation/
  nav = [
    { "Get started" = "index.md" },
-   { "Markdown in 5min" = "markdown.md" },
-   { "Azure Databricks" = "AzureDatabricks.md" },
+   { "Projects" = [
+     # { "Azure Data Factory" = "AzureDataFactory.md" },
+     { "Azure Databricks" = "AzureDatabricks.md" },
+   ] }
  ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
