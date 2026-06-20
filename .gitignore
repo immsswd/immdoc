@@ -1,0 +1,18 @@
+# Zensical build outputs
+site/
+dist/
+build/
+
+# Zensical local caches
+.cache/
+
+# Python environment and caches (if writing plugins/macros)
+__pycache__/
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
