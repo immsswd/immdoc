@@ -1,10 +1,10 @@
 ---
-icon: lucide/rocket
+# icon: lucide/rocket
 ---
 
 # Get started
 
-<a class="tool-btn back-btn" href="javascript:history.back()">
+<!-- <a class="tool-btn back-btn" href="javascript:history.back()">
     <span class="tool-icon" aria-hidden="true">
       <svg
         viewBox="0 0 24 24"
@@ -17,7 +17,8 @@ icon: lucide/rocket
       </svg>
     </span>
     Back
-  </a>
+  </a> -->
+
 Main page ➡️ [My Page](https:///immsswd.github.io/portfolio/)
 
 ## Examples
