@@ -125,7 +125,3 @@ Beyond the numbers, the bigger win was diagnosability: the team now had a per-mo
 ## What I'd Do Differently
 
 If I were starting this project today, I'd build the runtime/cost instrumentation **first**, before any model existed, rather than retrofitting it onto two years of accumulated technical debt. Cheap to add early, expensive to reconstruct later — a lesson that's shown up in every pipeline I've touched since.
-
----
-
-_Interested in how I approach a specific data problem? I'm happy to walk through the reasoning in more depth._
