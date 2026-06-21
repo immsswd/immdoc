@@ -1,7 +1,7 @@
 ---
-# icon: lucide/rocket
----
 
+---
+<!-- icon: lucide/rocket -->
 # Get started
 
 <!-- <a class="tool-btn back-btn" href="javascript:history.back()">
