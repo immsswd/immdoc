@@ -45,7 +45,7 @@ Copyright &copy; 2026 imm
 #
 # Read more: https://zensical.org/docs/setup/navigation/
  nav = [
-   { "/" = "index.md" },
+   { "Start" = "index.md" },
    { "Projects" = [
      # { "Azure Data Factory" = "AzureDataFactory.md" },
      { "Azure Databricks" = "AzureDatabricks.md" },
